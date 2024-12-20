@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @RestController
@@ -24,7 +25,7 @@ public class MovieController {
     public ResponseEntity<Movie> defaultMovie(){
         Movie movie= new Movie();
         movie.setName("rapidos y furiosos");
-        movie.setDate(LocalDateTime.now());
+        movie.setDate(LocalDate.now().toString());
         movie.setDescription("La quinta entrega de " +
                 "la saga de acción “Rápidos y Furiosos” se estrenó " +
                 "en 2011, dirigida por Justin Lin y escrita por Chris Morgan.");

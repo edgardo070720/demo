@@ -15,11 +15,19 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private  String name;
-    private LocalDateTime date;
+    private String date;
     private  String description;
 
     public long getId() {
         return id;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public void setId(long id) {
@@ -34,13 +42,7 @@ public class Movie {
         this.name = name;
     }
 
-    public LocalDateTime getDate() {
-        return date;
-    }
 
-    public void setDate(LocalDateTime date) {
-        this.date = date;
-    }
 
     public String getDescription() {
         return description;
