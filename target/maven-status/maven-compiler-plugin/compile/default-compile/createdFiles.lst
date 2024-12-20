@@ -1,0 +1,6 @@
+com/example/demo/service/IMovieService.class
+com/example/demo/DemoApplication.class
+com/example/demo/model/Movie.class
+com/example/demo/controller/MovieController.class
+com/example/demo/service/implementation/MovieService.class
+com/example/demo/repository/IMovieRepository.class

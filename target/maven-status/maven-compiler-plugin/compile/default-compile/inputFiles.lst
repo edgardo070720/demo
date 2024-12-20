@@ -1,0 +1,6 @@
+/home/ing-edgardo/Repos/java_projects/demo/src/main/java/com/example/demo/DemoApplication.java
+/home/ing-edgardo/Repos/java_projects/demo/src/main/java/com/example/demo/controller/MovieController.java
+/home/ing-edgardo/Repos/java_projects/demo/src/main/java/com/example/demo/model/Movie.java
+/home/ing-edgardo/Repos/java_projects/demo/src/main/java/com/example/demo/repository/IMovieRepository.java
+/home/ing-edgardo/Repos/java_projects/demo/src/main/java/com/example/demo/service/IMovieService.java
+/home/ing-edgardo/Repos/java_projects/demo/src/main/java/com/example/demo/service/implementation/MovieService.java
